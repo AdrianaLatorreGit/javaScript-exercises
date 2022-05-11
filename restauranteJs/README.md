@@ -1,6 +1,6 @@
 
 <div align="center">
-     <a href="https://restaurantejs-adrianalatorre.netlify.app/" target="_blank"<div/>Demo</a>
+     <a href="https://restaurantejs-adrianalatorre.netlify.app/" target="_blank">Demo</a>
      </div>
      <br/>
      
