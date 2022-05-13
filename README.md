@@ -1,1 +1,1 @@
-# pure-javaScript-exercises
+# logic-javaScript-exercises
