@@ -1,1 +1,1 @@
-# logic-javaScript-exercises
+Vanilla JS exercises
