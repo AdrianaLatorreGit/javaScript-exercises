@@ -1,5 +1,5 @@
 
-<div align="center">
+<div>
      <a href="https://restaurantejs-adrianalatorre.netlify.app/" target="_blank">Demo</a>
      </div>
      <br/>
