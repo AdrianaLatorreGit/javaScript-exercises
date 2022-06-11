@@ -1,6 +1,6 @@
 JavaScrip exercise
 
-<div align="center">
+<div>
   <a href="https://videolocadora-adrianalatorre.netlify.app/" target="_blank">Demo</a>
   </div>
   <br/>
