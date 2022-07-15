@@ -1,0 +1,101 @@
+:root {
+--light: #fff;
+--btn-bkg: #363434;
+--btn-bkg-hover: #727272;
+--bkg: #939393;
+--green: #067638;
+--red: #810b0b;
+}
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+}
+
+header h1 {
+font-weight: 400;
+padding: 4rem 0;
+text-align: center;
+}
+
+main {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+form {
+display: flex;
+flex-direction: column;
+padding: 0.8rem;
+background-color: var(--bkg);
+border-radius: 0.4rem;
+width: 20rem;
+margin-bottom: 2rem;
+}
+
+form input {
+font-size: 1.2rem;
+padding: 0.4rem;
+margin: 0.2rem 0;
+border: none;
+}
+
+#btn {
+background-color: var(--btn-bkg);
+color: var(--light);
+border: none;
+}
+
+#btn:hover {
+cursor: pointer;
+background-color: var(--btn-bkg-hover);
+}
+
+.erro {
+background-color: var(--red);
+color: var(--light);
+padding: 1rem;
+margin-bottom: 2rem;
+}
+
+.tabela {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+width: 90%;
+}
+
+.estudante {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 0.1rem 0.1rem;
+width: 98%;
+}
+
+.estudante span {
+border: 0.1rem solid var(--light);
+background-color: var(--bkg);
+text-align: center;
+}
+
+.reprovou {
+background-color: var(--red) !important;
+color: var(--light);
+}
+
+.passou {
+background-color: var(--green) !important;
+color: var(--light);
+}
+
+@media (min-width: 1024px) {
+.estudante {
+    width: 40%;
+}
+}
