@@ -1,0 +1,30 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dino {
+    background: url("../img/dino.png") no-repeat;
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+}
+
+.background {
+    background: url("../img/background.png");
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+}
+
+.cactus {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    background: url("../img/cactus.png");
+}
