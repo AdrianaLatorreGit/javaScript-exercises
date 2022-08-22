@@ -1,4 +1,4 @@
-exercise to create new sound
+exercise to create new Audio
 
 <div align="center">
   <a href="https://piano-adrianalatorre.netlify.app/" target="_blank">Demo<a/>
