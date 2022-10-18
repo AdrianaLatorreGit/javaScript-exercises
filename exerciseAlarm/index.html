@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <title>Alarme Esfera Software</title>
+    </head>
+    <body>
+        <audio id="sound" src="assets/audio/alarme.mp3"></audio>
+
+        <div class="container">
+            <h2>Minutos:</h2>
+            <select id="minutos" name="minutos"></select>
+
+            <h2>Segundos:</h2>
+            <select id="segundos" name="segundos"></select>
+            <br />
+            <br />
+
+            <div class="buttons">
+                <button id="comecar">Começar!</button>
+                <button id="pausar">Pausar</button>
+                <button id="cancelar">Cancelar</button>
+            </div>
+            <div id="display">
+                <h3></h3>
+            </div>
+        </div>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
