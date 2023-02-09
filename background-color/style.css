@@ -1,0 +1,46 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 50px;
+  height: 100vh;
+  background-color: rgb(135, 149, 204);
+  transition: 0.3s;
+}
+
+/* H1 */
+
+.title {
+  color: black;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 2px #fff;
+}
+
+/* Button */
+.button {
+  padding: 20px 40px;
+  background: rgb(182, 203, 211);
+  border: none;
+  cursor: pointer;
+  box-shadow: 1px 2px 3px rgb(0, 0, 0);
+  border-radius: 8px;
+  /* text-transform: uppercase; */
+  /* font-weight: bold; */
+  letter-spacing: 1px;
+  transition: 0.2s background;
+}
+
+.button:hover {
+  box-shadow: 1px 1px 1px;
+  background: rgb(136, 151, 149);
+}
+
